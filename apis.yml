@@ -1,8 +1,25 @@
 aid: revolving-games
 name: Revolving Games
-description: 'Revolving Games is a company surfaced as a portfolio company of pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Revolving Games is a mobile-first game studio and publishing company
+  operating two independent gaming studios with a team of 150+ gaming-industry veterans.
+  Its flagship title is War of Nova, a sci-fi 4X space-strategy mobile game for iOS
+  and Android spanning base-building, empire-building, and competitive multiplayer
+  live-ops gameplay. Backed by Pantera Capital, the company was surfaced through the
+  API Evangelist network as a portfolio lead; as of this enrichment pass it publishes
+  a consumer marketing website only and exposes no public API, developer portal, SDK,
+  or documentation surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.revolvinggames.com/preview.jpg
 url: https://raw.githubusercontent.com/api-evangelist/revolving-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Game Studio
+- Game Publisher
+- Strategy Games
+- Web3
 - Crypto
 apis: []
 maintainers:
@@ -24,4 +47,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://revolving.games/
+  url: https://revolvinggames.com/
+- type: X
+  url: https://x.com/Revolving_Games
+- type: DomainSecurity
+  url: security/revolving-games-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
